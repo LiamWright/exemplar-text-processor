@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Process-Course-Text", "Process-Course-Text\Process-Course-Text.csproj", "{AA3CE177-2633-4587-956A-AD29215DB151}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dfc.Exemplar.Text.Processor", "..\Dfc.Exemplar.Text.Processor\Dfc.Exemplar.Text.Processor\Dfc.Exemplar.Text.Processor.csproj", "{CB06084D-BA86-4F36-BE8A-13628E9445A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dfc.Exemplar.Text.Processor", "..\src\Dfc.Exemplar.Text.Processor\Dfc.Exemplar.Text.Processor\Dfc.Exemplar.Text.Processor.csproj", "{CB06084D-BA86-4F36-BE8A-13628E9445A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AA3CE177-2633-4587-956A-AD29215DB151}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AA3CE177-2633-4587-956A-AD29215DB151}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AA3CE177-2633-4587-956A-AD29215DB151}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AA3CE177-2633-4587-956A-AD29215DB151}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CB06084D-BA86-4F36-BE8A-13628E9445A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CB06084D-BA86-4F36-BE8A-13628E9445A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB06084D-BA86-4F36-BE8A-13628E9445A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
