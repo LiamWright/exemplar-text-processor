@@ -10,7 +10,7 @@ using Newtonsoft.Json;
 using Process.Course.Text.Interfaces;
 using Process.Course.Text.Settings;
 using Microsoft.Extensions.Options;
-using Dfc.ProviderPortal.Packages;
+using Process.Course.Text.Common;
 using System.Collections.Generic;
 
 namespace Process.Course.Text.Services

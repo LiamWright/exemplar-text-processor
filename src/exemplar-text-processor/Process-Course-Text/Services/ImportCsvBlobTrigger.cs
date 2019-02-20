@@ -1,4 +1,11 @@
-﻿using System;
+﻿using Microsoft.Azure.Documents.Client;
+using Microsoft.Azure.WebJobs;
+using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
+using Process.Course.Text.Common.DependencyInjection;
+using Process.Course.Text.Delimited;
+using Process.Course.Text.Settings;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Dynamic;
@@ -6,17 +13,6 @@ using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
-using Dfc.ProviderPortal.Packages.AzureFunctions.DependencyInjection;
-using Process.Course.Text.Settings;
-using Microsoft.Azure.Documents;
-using Microsoft.Azure.Documents.Client;
-using Microsoft.Azure.WebJobs;
-using Microsoft.Azure.WebJobs.Host;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
-using Newtonsoft.Json;
-using Microsoft.WindowsAzure.Storage.Blob;
-using Process.Course.Text.Delimited;
 
 namespace Process.Course.Text.Services
 {

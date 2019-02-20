@@ -1,4 +1,4 @@
-﻿using Dfc.ProviderPortal.Packages;
+﻿using Process.Course.Text.Common;
 using System.Collections.Generic;
 using System.Linq;
 

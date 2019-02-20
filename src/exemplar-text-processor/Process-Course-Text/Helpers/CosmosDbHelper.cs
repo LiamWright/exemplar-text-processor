@@ -1,4 +1,4 @@
-﻿using Dfc.ProviderPortal.Packages;
+﻿using Process.Course.Text.Common;
 using Process.Course.Text.Interfaces;
 using Process.Course.Text.Settings;
 using Microsoft.Azure.Documents;
