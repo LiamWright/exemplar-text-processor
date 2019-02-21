@@ -9,7 +9,13 @@ namespace Dfc.Exemplar.Text.Processor
     {
         static void Main(string[] args)
         {
-
+            /*
+             * Invalid characters:
+             * ’
+             * ‘
+             * –
+             * …
+             */
             var csv = new List<string[]>();
             List<CourseTextModel> courses = new List<CourseTextModel>();
             
@@ -40,7 +46,7 @@ namespace Dfc.Exemplar.Text.Processor
                 };
                 courses.Add(course);
             }
-            File.WriteAllText(@"InputFileLocationGoesHere", JsonConvert.SerializeObject(courses));
+            File.WriteAllText(@"OutputFileLocationGoesHere", JsonConvert.SerializeObject(courses));
 
         }
     }
