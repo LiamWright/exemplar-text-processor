@@ -14,7 +14,7 @@ namespace Dfc.Exemplar.Text.Processor
              * ’
              * ‘
              * –
-             * …
+             * … 
              */
             var csv = new List<string[]>();
             List<CourseTextModel> courses = new List<CourseTextModel>();
